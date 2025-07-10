@@ -191,8 +191,16 @@
         .contact-section {
             display: flex;
             gap: 50px;
+            flex-direction: row;
+justify-content: flex-start;
+align-items: center;
         }
-
+         span{
+            color: black;
+           font-size: 97px;
+          font-weight: 700;
+         line-height: 120%;
+         }
         .contact-content {
             flex: 1;
         }
@@ -292,6 +300,7 @@
 
         /* Footer */
         footer {
+            margin-top: 80px;
             background-color: #ffffff;
             padding: 60px 0 30px;
             text-align: center;
