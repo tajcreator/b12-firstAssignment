@@ -127,11 +127,7 @@
             gap: 390px;
         }
        
-        .joined{
-            margin-top: 130px;
-            padding: 40px 0;
-        }
- 
+      
 
         .action-content {
             flex: 1;
@@ -144,8 +140,8 @@
         .action-image img {
         width: 403px;
         height: 328px;
-            border-radius: 10px;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            border-radius: 25px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.539);
         }
 
       
@@ -161,7 +157,10 @@
             margin-top: 140px;
         }
         
-       
+          .joined{
+            margin-top: 130px;
+            padding: 50px 0;
+        }
 
         .stats-container {
             display: flex;
@@ -177,7 +176,7 @@
             font-size: 3rem;
             font-weight: 700;
             margin-bottom: 10px;
-            background: linear-gradient(90deg, #00F0FF 0%, #5773FF 100%);
+            background:  rgb(78, 71, 255);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -244,7 +243,7 @@
             resize: vertical;
         }
 
-           /* card */
+           /* banner card */
               .banner-card {
             width: 100%;
             
@@ -256,6 +255,7 @@
             text-align: center;
             position: relative;
             overflow: hidden;
+            margin-top: 50px;
         }
         
        
@@ -275,8 +275,8 @@
         
         .button {
             display: inline-block;
-            background-color: rgb(156, 237, 240);
-            color: #6e8efb;
+            background-color: rgb(0, 64, 255);
+            color: #ffffff;
             padding: 12px 30px;
             border-radius: 50px;
             text-decoration: none;
@@ -288,8 +288,8 @@
         
         .button:hover {
             transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(255, 0, 0, 0.841);
-            background-color: #FFD700;
+            box-shadow: 0 9px 15px rgba(3, 3, 0, 0.841);
+            background-color: #ff8400;
         }
         
         .logos {
@@ -317,7 +317,7 @@
         /* Testimonials */
         .testimonials-section {
             text-align: center;
-            margin-top: 50px;
+            margin-top: 120px;
         }
 
         .testimonial-card {
