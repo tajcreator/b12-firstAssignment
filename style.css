@@ -34,7 +34,7 @@
 
         .btn-primary:hover {
             transform: translateY(-3px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 10px 20px rgba(6, 118, 255, 0.893);
         }
 
         .btn-outline {
@@ -95,8 +95,8 @@
 
         .logo {
             font-size: 40px;
-            font-weight: bold;
-            
+            font-weight: 700;
+         
             color: rgb(78, 71, 255);
             text-decoration: none;
         }
@@ -129,6 +129,7 @@
        
         .joined{
             margin-top: 130px;
+            padding: 40px 0;
         }
  
 
@@ -192,8 +193,9 @@
             display: flex;
             gap: 50px;
             flex-direction: row;
-justify-content: flex-start;
-align-items: center;
+         justify-content: flex-start;
+        align-items: center;
+        margin-top: 90px;
         }
          span{
             color: black;
@@ -242,6 +244,76 @@ align-items: center;
             resize: vertical;
         }
 
+           /* card */
+              .banner-card {
+            width: 100%;
+            
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            color: white;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+       
+        
+        .testimonial {
+            font-style: italic;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+            position: relative;
+        }
+        
+        .testimonial::before, .testimonial::after {
+            content: '"';
+            font-size: 1.5rem;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        .button {
+            display: inline-block;
+            background-color: rgb(156, 237, 240);
+            color: #6e8efb;
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(255, 0, 0, 0.841);
+            background-color: #FFD700;
+        }
+        
+        .logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        .logos img{
+            width: 80%;
+            border-radius: 20px;
+            
+        }
+        
+        .logo {
+            font-weight: 600;
+            opacity: 0.8;
+        }
+        
+      
+        
+
+           
         /* Testimonials */
         .testimonials-section {
             text-align: center;
