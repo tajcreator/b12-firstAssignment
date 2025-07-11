@@ -173,7 +173,7 @@
         }
 
         .stat-number {
-            font-size: 3rem;
+            font-size: 4rem;
             font-weight: 700;
             margin-bottom: 10px;
             background:  rgb(78, 71, 255);
@@ -185,6 +185,7 @@
         .stat-label {
             color: #a0a0a0;
             font-size: 1rem;
+            margin-top: -20px;
         }
 
         /* Contact Section */
