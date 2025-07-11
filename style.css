@@ -194,7 +194,7 @@
             flex-direction: row;
          justify-content: flex-start;
         align-items: center;
-        margin-top: 90px;
+        margin-top: 120px;
         }
          span{
             color: black;
@@ -337,7 +337,7 @@
         .all-card{
                display: flex;
             justify-content: space-around;
-            margin-top: 50px;
+            margin-top: 0;
             gap: 30px;
         }
 
@@ -379,6 +379,7 @@
         }
 
         .footer-logo {
+            
             font-size: 3.8rem;
             font-weight: bolder;
             margin-bottom: 15px;
@@ -410,31 +411,4 @@
             margin-top: 30px;
         }
 
-        /* Responsive */
-        @media (max-width: 768px) {
-            .action-section, .contact-section {
-                flex-direction: column;
-            }
-
-            .stats-container {
-                flex-direction: column;
-                gap: 40px;
-            }
-
-            h1 {
-                font-size: 2.5rem;
-            }
-
-            h2 {
-                font-size: 2rem;
-            }
-
-            .banner {
-                height: 80vh;
-            }
-
-            .footer-links {
-                flex-direction: column;
-                gap: 15px;
-            }
-        }
+        
